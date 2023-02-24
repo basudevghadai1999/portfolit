@@ -1,0 +1,15 @@
+instagram cloning 2hr(update in github)
+
+backend development 2 hr(update in github)
+
+
+code practice 1hr
+
+Coding: Assume a function whose output is a string, now write a decorator which takes this function and check if the output is a valid file and exists on disk. Also return the size of the file. (mandatory)
+Coding: Write a Python generator that takes in two lists and yields tuples containing one element from each list at a time. The generator should stop yielding when the shorter list is exhausted. (mandatory)
+Question: What is CORS? And how do we fix it? Should it be fixed Client Side or Server Side? (mandatory)
+Question. What are some of the State Management LIbraries you've worked on in React? (mandatory)
+Question. How will you debug a slow running SQL query? (mandatory)
+Question. Have you worked with docker before? Why do we use docker? (mandatory)
+Question. What are Error Boundaries ? In which scenarios error boundaries do not catch errors? (mandatory)
+Specify links to some of the full stack projects you've worked on, which are deployed on Vercel/Netlify/Github Pages/Fast/Firebase (mandatory)

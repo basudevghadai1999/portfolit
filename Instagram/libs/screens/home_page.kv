@@ -1,0 +1,41 @@
+#:import get_color_from_hex kivy.utils.get_color_from_hex
+
+#:import StroryCreator libs.components.story_creator.StroryCreator
+
+<HomePage>:
+   
+
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        AppBar:
+
+        MDBoxLayout:
+
+            ScrollView:
+                bar_width: 0
+
+                MDBoxLayout:
+                    adaptive_height: True
+
+                    MDBoxLayout:
+                        orientation: 'vertical'
+                        adaptive_height: True
+                        id: timeline
+
+
+                        ScrollView:
+                            size_hint_y: None
+                            height: 110
+                            bar_width: 0
+
+                            MDBoxLayout:
+                                adaptive_height: True
+                                spacing: 5
+                                padding: 5
+
+                                # story crator
+                                StroryCreator:
+                                    avtar: root.profile_picture
+
+          
